@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6D30D50E1B43E875008EA7C3 /* ExtendNSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D30D50D1B43E875008EA7C3 /* ExtendNSLog.m */; };
 		6D5A36C11B43C280002AA60A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5A36C01B43C280002AA60A /* main.m */; };
-		6DFAFA3B1B440A220006B183 /* ATCSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFAFA3A1B440A220006B183 /* ATCSnippet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +28,6 @@
 		6D30D50D1B43E875008EA7C3 /* ExtendNSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtendNSLog.m; sourceTree = "<group>"; };
 		6D5A36BD1B43C280002AA60A /* IBDelegateCodesippets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IBDelegateCodesippets; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D5A36C01B43C280002AA60A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6DFAFA391B440A220006B183 /* ATCSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCSnippet.h; sourceTree = "<group>"; };
-		6DFAFA3A1B440A220006B183 /* ATCSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCSnippet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +63,6 @@
 				6D30D50C1B43E875008EA7C3 /* ExtendNSLog.h */,
 				6D30D50D1B43E875008EA7C3 /* ExtendNSLog.m */,
 				6D5A36C01B43C280002AA60A /* main.m */,
-				6DFAFA391B440A220006B183 /* ATCSnippet.h */,
-				6DFAFA3A1B440A220006B183 /* ATCSnippet.m */,
 			);
 			path = genpro;
 			sourceTree = "<group>";
@@ -128,7 +123,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DFAFA3B1B440A220006B183 /* ATCSnippet.m in Sources */,
 				6D5A36C11B43C280002AA60A /* main.m in Sources */,
 				6D30D50E1B43E875008EA7C3 /* ExtendNSLog.m in Sources */,
 			);
