@@ -1,6 +1,11 @@
-# dsnip - Create code snippets from protocols
+# dsnip - Create code snippets from UIKit protocols
+
+Can you remember all dlegate methods from UITableViewDatasource? And which ones are optional and which ones are required? This command line tool extracts all these information from the header files of the current iOS installed in the Xcode.app in your application folder 
 
 I wrote this little command line program for me, but I´m sure its valuable to may other XCode developer (especially iOS developer as I focussed on the iOS SDK) as well.
+
+It´s done quick & dirty as I wanted the result (that you find in the codesnippet folder) - a beauty contest was never in my mind ;-) But if you want to make it more flexible ... hey ... perfect for me ;-)
+
 
 It generats the Xcode codesnippet files for all protocols in the UIKit elements, like ... 
 
