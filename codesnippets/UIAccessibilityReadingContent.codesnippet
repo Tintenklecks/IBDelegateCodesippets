@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>DELE UIAccessibilityReadingContent</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - PROTOCOL UIAccessibilityReadingContent
+#pragma mark - REQUIRED methods for protocol UIAccessibilityReadingContent
+
+// Returns the line number given a point in the view's coordinate space.
+// - (NSInteger)accessibilityLineNumberForPoint:(CGPoint)point NS_AVAILABLE_IOS(5_0){ }
+
+// Returns the content associated with a line number as a string.
+// - (NSString *)accessibilityContentForLineNumber:(NSInteger)lineNumber NS_AVAILABLE_IOS(5_0){ }
+
+// Returns the on-screen rectangle for a line number.
+// - (CGRect)accessibilityFrameForLineNumber:(NSInteger)lineNumber NS_AVAILABLE_IOS(5_0){ }
+
+// Returns a string representing the text displayed on the current page.
+// - (NSString *)accessibilityPageContent NS_AVAILABLE_IOS(5_0){ }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>82E9A6AC-0F8F-434E-BAF8-51EC49FD65F2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Delegate defines</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIAccessibilityReadingContent Delegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

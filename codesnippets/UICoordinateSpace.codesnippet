@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>DELE UICoordinateSpace</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - PROTOCOL UICoordinateSpace 
+
+// - (CGPoint)convertPoint:(CGPoint)point toCoordinateSpace:(id &lt;UICoordinateSpace&gt;)coordinateSpace NS_AVAILABLE_IOS(8_0){ }
+// - (CGPoint)convertPoint:(CGPoint)point fromCoordinateSpace:(id &lt;UICoordinateSpace&gt;)coordinateSpace NS_AVAILABLE_IOS(8_0){ }
+// - (CGRect)convertRect:(CGRect)rect toCoordinateSpace:(id &lt;UICoordinateSpace&gt;)coordinateSpace NS_AVAILABLE_IOS(8_0){ }
+// - (CGRect)convertRect:(CGRect)rect fromCoordinateSpace:(id &lt;UICoordinateSpace&gt;)coordinateSpace NS_AVAILABLE_IOS(8_0){ }
+
+// @property (readonly, nonatomic) CGRect bounds NS_AVAILABLE_IOS(8_0){ }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>68A4DB15-F3AF-4700-B873-7595B6A84D6D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Delegate defines</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UICoordinateSpace Delegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

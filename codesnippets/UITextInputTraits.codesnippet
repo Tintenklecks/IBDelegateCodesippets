@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>DELE UITextInputTraits</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - PROTOCOL UITextInputTraits 
+
+#pragma mark - OPTIONAL methods for protocol UITextInputTraits 
+
+// @property(nonatomic) UITextAutocapitalizationType autocapitalizationType{ } // default is UITextAutocapitalizationTypeSentences
+// @property(nonatomic) UITextAutocorrectionType autocorrectionType{ }         // default is UITextAutocorrectionTypeDefault
+// @property(nonatomic) UITextSpellCheckingType spellCheckingType NS_AVAILABLE_IOS(5_0){ } // default is UITextSpellCheckingTypeDefault{ }
+// @property(nonatomic) UIKeyboardType keyboardType{ }                         // default is UIKeyboardTypeDefault
+// @property(nonatomic) UIKeyboardAppearance keyboardAppearance{ }             // default is UIKeyboardAppearanceDefault
+// @property(nonatomic) UIReturnKeyType returnKeyType{ }                       // default is UIReturnKeyDefault (See note under UIReturnKeyType enum)
+// @property(nonatomic) BOOL enablesReturnKeyAutomatically{ }                  // default is NO (when YES, will automatically disable return key when text widget has zero-length contents, and will automatically enable when text widget has non-zero-length contents)
+// @property(nonatomic,getter=isSecureTextEntry) BOOL secureTextEntry{ }       // default is NO
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4E306630-DCF4-48FB-BD54-EFEF7AE62578</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Delegate defines</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITextInputTraits Delegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

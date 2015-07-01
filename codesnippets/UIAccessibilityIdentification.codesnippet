@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>DELE UIAccessibilityIdentification</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - PROTOCOL UIAccessibilityIdentification 
+#pragma mark - REQUIRED methods for protocol UIAccessibilityIdentification 
+
+// /*
+// A string that identifies the user interface element.
+// default == nil
+// */
+// @property(nonatomic, copy) NSString *accessibilityIdentifier NS_AVAILABLE_IOS(5_0){ }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1AE4D0DE-9D9E-4133-A900-5486234EE23D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Delegate defines</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIAccessibilityIdentification Delegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

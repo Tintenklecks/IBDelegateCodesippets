@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>DELE UIDynamicAnimatorDelegate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - PROTOCOL UIDynamicAnimatorDelegate 
+
+#pragma mark - OPTIONAL methods for protocol UIDynamicAnimatorDelegate 
+// - (void)dynamicAnimatorWillResume:(UIDynamicAnimator*)animator{ }
+// - (void)dynamicAnimatorDidPause:(UIDynamicAnimator*)animator{ }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3A119A77-3189-4B2B-B793-278DA245736A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Delegate defines</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIDynamicAnimatorDelegate Delegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

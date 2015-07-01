@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>DELE UIPrintInteractionControllerDelegate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - PROTOCOL UIPrintInteractionControllerDelegate 
+#pragma mark - OPTIONAL methods for protocol UIPrintInteractionControllerDelegate 
+
+// - (UIViewController *)printInteractionControllerParentViewController:(UIPrintInteractionController *)printInteractionController{ }
+
+// - (UIPrintPaper *)printInteractionController:(UIPrintInteractionController *)printInteractionController choosePaper:(NSArray *)paperList{ }
+
+// - (void)printInteractionControllerWillPresentPrinterOptions:(UIPrintInteractionController *)printInteractionController{ }
+// - (void)printInteractionControllerDidPresentPrinterOptions:(UIPrintInteractionController *)printInteractionController{ }
+// - (void)printInteractionControllerWillDismissPrinterOptions:(UIPrintInteractionController *)printInteractionController{ }
+// - (void)printInteractionControllerDidDismissPrinterOptions:(UIPrintInteractionController *)printInteractionController{ }
+
+// - (void)printInteractionControllerWillStartJob:(UIPrintInteractionController *)printInteractionController{ }
+// - (void)printInteractionControllerDidFinishJob:(UIPrintInteractionController *)printInteractionController{ }
+
+// - (CGFloat)printInteractionController:(UIPrintInteractionController *)printInteractionController cutLengthForPaper:(UIPrintPaper *)paper NS_AVAILABLE_IOS(7_0){ }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>02231C2F-DC02-458D-98A0-0F8553A4EE5B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Delegate defines</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIPrintInteractionControllerDelegate Delegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

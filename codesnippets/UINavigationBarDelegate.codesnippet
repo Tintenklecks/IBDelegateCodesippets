@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>DELE UINavigationBarDelegate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - PROTOCOL UINavigationBarDelegate 
+
+#pragma mark - OPTIONAL methods for protocol UINavigationBarDelegate 
+
+// - (BOOL)navigationBar:(UINavigationBar *)navigationBar shouldPushItem:(UINavigationItem *)item{ } // called to push. return NO not to.
+// - (void)navigationBar:(UINavigationBar *)navigationBar didPushItem:(UINavigationItem *)item{ }    // called at end of animation of push or immediately if not animated
+// - (BOOL)navigationBar:(UINavigationBar *)navigationBar shouldPopItem:(UINavigationItem *)item{ }  // same as push methods
+// - (void)navigationBar:(UINavigationBar *)navigationBar didPopItem:(UINavigationItem *)item{ }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>251774ED-426D-407C-83B6-9EF7BB58BE50</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Delegate defines</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UINavigationBarDelegate Delegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

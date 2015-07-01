@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>DELE UICollisionBehaviorDelegate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - PROTOCOL UICollisionBehaviorDelegate 
+#pragma mark - OPTIONAL methods for protocol UICollisionBehaviorDelegate 
+
+// - (void)collisionBehavior:(UICollisionBehavior*)behavior beganContactForItem:(id &lt;UIDynamicItem&gt;)item1 withItem:(id &lt;UIDynamicItem&gt;)item2 atPoint:(CGPoint)p{ }
+// - (void)collisionBehavior:(UICollisionBehavior*)behavior endedContactForItem:(id &lt;UIDynamicItem&gt;)item1 withItem:(id &lt;UIDynamicItem&gt;)item2{ }
+
+// The identifier of a boundary created with translatesReferenceBoundsIntoBoundary or setTranslatesReferenceBoundsIntoBoundaryWithInsets is nil
+// - (void)collisionBehavior:(UICollisionBehavior*)behavior beganContactForItem:(id &lt;UIDynamicItem&gt;)item withBoundaryIdentifier:(id &lt;NSCopying&gt;)identifier atPoint:(CGPoint)p{ }
+// - (void)collisionBehavior:(UICollisionBehavior*)behavior endedContactForItem:(id &lt;UIDynamicItem&gt;)item withBoundaryIdentifier:(id &lt;NSCopying&gt;)identifier{ }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8CB562D0-0FD7-4266-AFD7-D3E2D5E0EAAD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Delegate defines</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UICollisionBehaviorDelegate Delegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

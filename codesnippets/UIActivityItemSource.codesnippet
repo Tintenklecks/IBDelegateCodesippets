@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>DELE UIActivityItemSource</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - PROTOCOL UIActivityItemSource 
+
+#pragma mark - REQUIRED methods for protocol UIActivityItemSource 
+
+// - (id)activityViewControllerPlaceholderItem:(UIActivityViewController *)activityViewController{ }	// called to determine data type. only the class of the return type is consulted. it should match what -itemForActivityType: returns later
+// - (id)activityViewController:(UIActivityViewController *)activityViewController itemForActivityType:(NSString *)activityType{ }	// called to fetch data after an activity is selected. you can return nil.
+
+#pragma mark - OPTIONAL methods for protocol UIActivityItemSource 
+
+// - (NSString *)activityViewController:(UIActivityViewController *)activityViewController subjectForActivityType:(NSString *)activityType{ } // if activity supports a Subject field. iOS 7.0
+// - (NSString *)activityViewController:(UIActivityViewController *)activityViewController dataTypeIdentifierForActivityType:(NSString *)activityType{ } // UTI for item if it is an NSData. iOS 7.0. will be called with nil activity and then selected activity
+// - (UIImage *)activityViewController:(UIActivityViewController *)activityViewController thumbnailImageForActivityType:(NSString *)activityType suggestedSize:(CGSize)size{ } // if activity supports preview image. iOS 7.0
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F5F852F9-B94E-42A1-A513-F4435A69F3A9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Delegate defines</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIActivityItemSource Delegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

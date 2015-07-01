@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>DELE UIObjectRestoration</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - PROTOCOL UIViewControllerRestoration
+// + (UIViewController *) viewControllerWithRestorationIdentifierPath:(NSArray *)identifierComponents coder:(NSCoder *)coder{ }
+#pragma mark - PROTOCOL UIDataSourceModelAssociation
+// - (NSString *) modelIdentifierForElementAtIndexPath:(NSIndexPath *)idx inView:(UIView *)view{ }
+// - (NSIndexPath *) indexPathForElementWithModelIdentifier:(NSString *)identifier inView:(UIView *)view{ }
+#pragma mark - PROTOCOL UIStateRestoring 
+#pragma mark - OPTIONAL methods for protocol UIStateRestoring 
+// The parent property is used to scope the restoration identifier path for an object, to
+// disambiguate it from other objects that might be using the same identifier. The parent
+// must be a restorable object or a view controller, else it will be ignored.
+// @property (nonatomic, readonly) id&lt;UIStateRestoring&gt; restorationParent{ }
+
+// The restoration class specifies a class which is consulted during restoration to find/create
+// the object, rather than trying to look it up implicitly
+// @property (nonatomic, readonly) Class&lt;UIObjectRestoration&gt; objectRestorationClass{ }
+
+// Methods to save and restore state for the object. If these aren't implemented, the object
+// can still be referenced by other objects in state restoration archives, but it won't
+// save/restore any state of its own.
+// - (void) encodeRestorableStateWithCoder:(NSCoder *)coder{ }
+// - (void) decodeRestorableStateWithCoder:(NSCoder *)coder{ }
+
+
+// applicationFinishedRestoringState is called on all restored objects that implement the method *after* all other object
+// decoding has been done (including the application delegate). This allows an object to complete setup after state
+// restoration, knowing that all objects from the restoration archive have decoded their state.
+// - (void) applicationFinishedRestoringState{ }
+#pragma mark - PROTOCOL UIObjectRestoration
+// + (id&lt;UIStateRestoring&gt;) objectWithRestorationIdentifierPath:(NSArray *)identifierComponents coder:(NSCoder *)coder{ }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>63AA71E7-4031-4591-B8D0-50F531FEB8A1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Delegate defines</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIObjectRestoration Delegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

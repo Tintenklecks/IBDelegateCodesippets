@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>DELE UIScrollViewAccessibilityDelegate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - PROTOCOL UIPickerViewAccessibilityDelegate 
+
+#pragma mark - OPTIONAL methods for protocol UIPickerViewAccessibilityDelegate 
+// - (NSString *)pickerView:(UIPickerView *)pickerView accessibilityLabelForComponent:(NSInteger)component{ }
+// - (NSString *)pickerView:(UIPickerView *)pickerView accessibilityHintForComponent:(NSInteger)component{ }
+
+#pragma mark - PROTOCOL UIScrollViewAccessibilityDelegate 
+
+#pragma mark - OPTIONAL methods for protocol UIScrollViewAccessibilityDelegate 
+// - (NSString *)accessibilityScrollStatusForScrollView:(UIScrollView *)scrollView{ }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DA2BFB60-8FE6-4A31-A76B-67E8E0D0A8EF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Delegate defines</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIScrollViewAccessibilityDelegate Delegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

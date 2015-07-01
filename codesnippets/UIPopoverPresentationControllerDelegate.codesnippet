@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>DELE UIPopoverPresentationControllerDelegate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - PROTOCOL UIPopoverPresentationControllerDelegate 
+#pragma mark - OPTIONAL methods for protocol UIPopoverPresentationControllerDelegate 
+
+// - (void)prepareForPopoverPresentation:(UIPopoverPresentationController *)popoverPresentationController{ }
+
+// Called on the delegate when the popover controller will dismiss the popover. Return NO to prevent the
+// dismissal of the view.
+// - (BOOL)popoverPresentationControllerShouldDismissPopover:(UIPopoverPresentationController *)popoverPresentationController{ }
+
+// Called on the delegate when the user has taken action to dismiss the popover. This is not called when the popover is dimissed programatically.
+// - (void)popoverPresentationControllerDidDismissPopover:(UIPopoverPresentationController *)popoverPresentationController{ }
+
+// -popoverPresentationController:willRepositionPopoverToRect:inView: is called on your delegate when the
+// popover may require a different view or rectangle.
+// - (void)popoverPresentationController:(UIPopoverPresentationController *)popoverPresentationController willRepositionPopoverToRect:(inout CGRect *)rect inView:(inout UIView **)view{ }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>622E821A-8407-47FA-9B3A-8E32BFC8A7FA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Delegate defines</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIPopoverPresentationControllerDelegate Delegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>DELE UITabBarControllerDelegate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - PROTOCOL UITabBarControllerDelegate 
+#pragma mark - OPTIONAL methods for protocol UITabBarControllerDelegate 
+// - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController NS_AVAILABLE_IOS(3_0){ }
+// - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{ }
+
+// - (void)tabBarController:(UITabBarController *)tabBarController willBeginCustomizingViewControllers:(NSArray *)viewControllers NS_AVAILABLE_IOS(3_0){ }
+// - (void)tabBarController:(UITabBarController *)tabBarController willEndCustomizingViewControllers:(NSArray *)viewControllers changed:(BOOL)changed NS_AVAILABLE_IOS(3_0){ }
+// - (void)tabBarController:(UITabBarController *)tabBarController didEndCustomizingViewControllers:(NSArray *)viewControllers changed:(BOOL)changed{ }
+
+// - (NSUInteger)tabBarControllerSupportedInterfaceOrientations:(UITabBarController *)tabBarController NS_AVAILABLE_IOS(7_0){ }
+// - (UIInterfaceOrientation)tabBarControllerPreferredInterfaceOrientationForPresentation:(UITabBarController *)tabBarController NS_AVAILABLE_IOS(7_0){ }
+
+// - (id &lt;UIViewControllerInteractiveTransitioning&gt;)tabBarController:(UITabBarController *)tabBarController
+// interactionControllerForAnimationController: (id &lt;UIViewControllerAnimatedTransitioning&gt;)animationController NS_AVAILABLE_IOS(7_0){ }
+
+// - (id &lt;UIViewControllerAnimatedTransitioning&gt;)tabBarController:(UITabBarController *)tabBarController
+// animationControllerForTransitionFromViewController:(UIViewController *)fromVC
+// toViewController:(UIViewController *)toVC  NS_AVAILABLE_IOS(7_0){ }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A831F197-110B-4315-B177-CEAF9064F52B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Delegate defines</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITabBarControllerDelegate Delegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
