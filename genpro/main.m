@@ -54,6 +54,7 @@ void saveSnippet(NSString *prefix, NSString *protocolName,  NSString *content) {
     
     NSString *filename = [NSString stringWithFormat:@"%@/%@/%@.codesnippet", NSHomeDirectory(), SNIPPET_RELATIVE_DIRECTORY, protocolName];
     [snippet writeToFile:filename atomically:YES];
+    printf(".");
 }
 
 int main(int argc, const char *argv[]) {
@@ -61,6 +62,8 @@ int main(int argc, const char *argv[]) {
         // insert code here...
         
         NSString *xcodePath = @"/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers";
+        
+        printf("\nChecking UIKit framework header files for protocols/delegates\n");
         
         
         NSFileManager *fm = [NSFileManager defaultManager];
@@ -146,6 +149,9 @@ int main(int argc, const char *argv[]) {
             }
         }
     }
+    printf(" done\n");
+    printf("\nJust re-open Xcode and you find the snippets in the snippet container. Or start typing DELE (caps!!!) in code\n");
+    
     return 0;
 }
 

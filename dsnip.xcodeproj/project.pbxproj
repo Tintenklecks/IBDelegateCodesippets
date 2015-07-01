@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		6D30D50C1B43E875008EA7C3 /* ExtendNSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendNSLog.h; sourceTree = "<group>"; };
 		6D30D50D1B43E875008EA7C3 /* ExtendNSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtendNSLog.m; sourceTree = "<group>"; };
-		6D5A36BD1B43C280002AA60A /* IBDelegateCodesippets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IBDelegateCodesippets; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D5A36BD1B43C280002AA60A /* dsnip */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dsnip; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D5A36C01B43C280002AA60A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,7 +52,7 @@
 		6D5A36BE1B43C280002AA60A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D5A36BD1B43C280002AA60A /* IBDelegateCodesippets */,
+				6D5A36BD1B43C280002AA60A /* dsnip */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6D5A36BC1B43C280002AA60A /* IBDelegateCodesippets */ = {
+		6D5A36BC1B43C280002AA60A /* dsnip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D5A36C41B43C280002AA60A /* Build configuration list for PBXNativeTarget "IBDelegateCodesippets" */;
+			buildConfigurationList = 6D5A36C41B43C280002AA60A /* Build configuration list for PBXNativeTarget "dsnip" */;
 			buildPhases = (
 				6D5A36B91B43C280002AA60A /* Sources */,
 				6D5A36BA1B43C280002AA60A /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = IBDelegateCodesippets;
+			name = dsnip;
 			productName = genpro;
-			productReference = 6D5A36BD1B43C280002AA60A /* IBDelegateCodesippets */;
+			productReference = 6D5A36BD1B43C280002AA60A /* dsnip */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6D5A36B81B43C280002AA60A /* Build configuration list for PBXProject "IBDelegateCodesippets" */;
+			buildConfigurationList = 6D5A36B81B43C280002AA60A /* Build configuration list for PBXProject "dsnip" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D5A36BC1B43C280002AA60A /* IBDelegateCodesippets */,
+				6D5A36BC1B43C280002AA60A /* dsnip */,
 			);
 		};
 /* End PBXProject section */
@@ -212,7 +212,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = IBDelegateCodesippets;
+				PRODUCT_NAME = dsnip;
 				SDKROOT = macosx10.9;
 			};
 			name = Debug;
@@ -221,7 +221,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = IBDelegateCodesippets;
+				PRODUCT_NAME = dsnip;
 				SDKROOT = macosx10.9;
 			};
 			name = Release;
@@ -229,7 +229,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D5A36B81B43C280002AA60A /* Build configuration list for PBXProject "IBDelegateCodesippets" */ = {
+		6D5A36B81B43C280002AA60A /* Build configuration list for PBXProject "dsnip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D5A36C21B43C280002AA60A /* Debug */,
@@ -238,7 +238,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D5A36C41B43C280002AA60A /* Build configuration list for PBXNativeTarget "IBDelegateCodesippets" */ = {
+		6D5A36C41B43C280002AA60A /* Build configuration list for PBXNativeTarget "dsnip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D5A36C51B43C280002AA60A /* Debug */,
