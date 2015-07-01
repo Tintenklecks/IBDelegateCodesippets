@@ -1,4 +1,4 @@
-# dsnip - Create code snippets from UIKit protocols
+# dsnip - Create Xcode Objective C code snippets from UIKit protocols for iOS
 
 Can you remember all dlegate methods from UITableViewDatasource? And which ones are optional and which ones are required? This command line tool extracts all these information from the header files of the current iOS installed in the Xcode.app in your application folder 
 
